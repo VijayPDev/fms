@@ -1,0 +1,17 @@
+[{
+    "entity-name": "outlet",
+    "ui-components": [
+        {"name": "outlet-name", "type": "text-box"},
+        {"name": "region-code", "type": "drop-down",
+            "options": ["city-east", "city-central", "city-west"]}
+    ]
+},
+
+{
+    "entity-name": "pizza",
+    "ui-components": [
+        {"name": "pizza-name", "type": "text-box"},
+        {"name": "pizza-type", "type": "drop-down",
+            "options": ["vegetarian", "non-vegetarian", "halal"]}
+    ]
+}]
